@@ -32,6 +32,11 @@ object ErrorHandlingExample {
       num <- stringToInt("13")
     } yield num
     println(numFor)
+
+    // Recover to check exception
+    stringToInt("12a").recover {
+      case e: NumberFormatException => println(e.getMessage)
+    }.map(println(_)).getOrElse(println("unknow error"))
   }
 }
 
