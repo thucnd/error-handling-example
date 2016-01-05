@@ -1,2 +1,8 @@
-tutorial for handling error in scala
-website: http://vndial.com/scala/22-scala-error-handling
+
+tutorial
+
+Option Type
+http://vndial.com/scala/23-scala-option-type
+handling error in scala
+http://vndial.com/scala/22-scala-error-handling
+
